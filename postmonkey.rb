@@ -1,4 +1,10 @@
+require 'rubygems'
+require 'bundler/setup'
+
 require 'dotenv'
+require 'mailchimp'
+
 Dotenv.load
 
-MAILCHIMP_API_KEY = ENV['MAILCHIMP_API_KEY']
+MAILCHIMP-API-KEY = ENV['MAILCHIMP_API_KEY']
+
