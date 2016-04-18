@@ -17,5 +17,6 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 mailchimp = Mailchimp::API.new(MAILCHIMP_API_KEY)
 #gibbon = Gibbon::Request.new(api_key: MAILCHIMP_API_KEY) # for example only
+#segment = Gibbon::Request.new.lists(id).segments.create(body: {name: "test_segment",'options' => {match: 'all',conditions: [{condition_type: "TextMerge", field: "MMERGE3", op: "contains", value: "bar"}]}})
 
 binding.pry
